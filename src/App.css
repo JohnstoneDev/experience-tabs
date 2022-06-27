@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  box-sizing : border-box;;
+  padding :0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  font-size: 50px;
+  color : purple;
+  font-weight : 600;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color : #F1F5F8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  line-height: 1;
+  font-size: 1.25rem;
+  padding: 1em;
+  letter-spacing: .1rem;
+}
+
+.btn:hover{
+  border-left: 2px solid purple;
+  transition : all 0.3s linear;
+  color : purple;
+}
+
+.main-display {
+  display: flex;
+}
+
+.primary-grid {
+  display: grid;
+  grid-template-columns: repeat(2,500px);
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: start;
+}
+
+.navigation {
+  display : flex;
+  flex-direction : column;
+  justify-content : flex-start;
+  align-items: center;
+}
+
+.details {
+  text-align : left;
+  line-height : 2;
+}
+
+.details h2 {
+  color : Purple;
+}
+
+h4 {
+  background :#dae2ec;
+  border-style: none;
+  background: transparent;
+  color: #617d98;
+  max-width: fit-content;
+}
+
+
+p{
+  color :#617d98;
+}
